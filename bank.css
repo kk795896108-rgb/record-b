@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 28px #000 ;
+    background-color: #fff;
+}
+.box label{
+    text-align: center;
+    font-size: 23px;
+    font-family: sans-serif;
+    margin:0px 0px 0px 70px;
+    font-weight: bold;
+    color:#2563eb;
+}  
+
+.box input{
+    width: 250px;
+    height:30px;
+    border-radius: 7px;
+    margin-left: 30px;
+    text-align: center;
+    border-top: #000;
+    border-left: #000;
+    border-right: #000;
+
+}
+body{
+    background-color:#fff ;
+}
+button{
+    margin-left: 100px;
+    border-radius: 7px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-color: #444;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+}
+button:hover{
+    background-color:#2563eb;
+    color: #fff;
+}
+.leftbox{
+   width: 300px;
+    height: 200px;
+    margin-top: -120px;
+    margin-left: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 28px #000 ;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+.rightbox{
+     width: 300px;
+    height: 200px;
+    margin-top: -200px;
+    margin-left: -350px;
+    border-radius: 10px;
+    box-shadow: 0 0 28px ;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    
+}
+.leftbox span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.buttonf{
+    display: flex;
+}
+.buttonf button{
+    margin-left: 20px;
+}
+#message{
+    width: 150px;
+    margin-left: 80px;
+}
+p{
+    font-weight: bolder;
+    font-family: sans-serif;
+    line-height: 40px;
+
+}
+
+
+.rightbox p{
+    color: purple;
+}
+.leftbox h2{
+    font-size: 20px;
+    color: #2563eb;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-right: 100px;
+}
+.navi{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 28px ;
+}
+.logo h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    margin:10px 0px 0px 10px;
+}
+.nav{
+    margin-top: 60px;
+}
