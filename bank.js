@@ -14,9 +14,12 @@ function DEPOSIT(){
         document.getElementById("bankbalance").innerHTML=bankbalance;
         document.getElementById("message").innerHTML="congracts! Your Amount $"+amount+"is succesfully deposited.";
         document.getElementById("message").style.color="green";
-    
     }
-}
+    if(amount==0){
+        document.getElementById("message").innerText="Please Enter a amount.";
+        document.getElementById("message").style.color="orange";
+    }
+}   
 function WITHDRAW(){
     let amount=Number(document.getElementById("amount").value);
     if(amount<=bankbalance){
@@ -30,6 +33,10 @@ function WITHDRAW(){
         document.getElementById("bankbalance").innerHTML=bankbalance;
         document.getElementById("message").innerHTML="Your Amount $"+amount+"is withdrawn succesfully .";
         document.getElementById("message").style.color="red";
+    }
+    else if(amount==0){
+        document.getElementById("message").innerText="Please Enter a amount.";
+        document.getElementById("message").style.color="orange";
     }
     else{
         document.getElementById("message").innerText="Insufficient bank balance.";
