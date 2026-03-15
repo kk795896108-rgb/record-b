@@ -32,7 +32,7 @@
 
 }
 body{
-    background-color:#fff ;
+    background-color: #2564ebd3;
 }
 button{
     margin-left: 100px;
@@ -48,10 +48,6 @@ button{
     text-align: center;
     width: 120px;
     height: 25px;
-}
-button:hover{
-    background-color:#2563eb;
-    color: #fff;
 }
 .leftbox{
    width: 300px;
@@ -135,4 +131,18 @@ p{
 }
 .nav{
     margin-top: 60px;
+}
+.depo{
+    background-color: green;
+}
+.with{
+    background-color: #dc2626;
+}
+.depo:hover{
+    background-color: #16a34a;
+    color: #000;
+}
+.with:hover{
+    background-color: #b91c1c;
+    color: #000;
 }
